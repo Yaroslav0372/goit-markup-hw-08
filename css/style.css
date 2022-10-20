@@ -1,0 +1,98 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: #FFFFFF;
+}
+
+/* header */
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  color: #2196f3;
+}
+.logo-style {
+  color: #212121;
+}
+
+.nav-list {
+}
+.nav-item {
+}
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #2196f3;
+}
+
+.header-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+.header-mail:hover,
+:focus {
+  color: #2196f3;
+}
+
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+.header-tel:hover, :focus {
+    color: #2196f3;
+}
+
+/* hero */
+
+.benefits-title {
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  color: #212121;
+}
+
+.benefits-paragraph {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #757575;
+}
+/* footer */
+
+
+
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    color: #2196f3;
+}
+
+.footer-logo-style {
+    color: #ffffff;
+}
+
+.footer-link-address {
+font-weight: 400;
+font-size: 14px;
+line-height: calc(24 / 14);
+color: #ffffff;
+}
+
+.footer-link link {
+    font-weight: 400;
+font-size: 14px;
+line-height: calc(24 / 14);
+color: rgba(255, 255, 255, 0.6);
+}
+

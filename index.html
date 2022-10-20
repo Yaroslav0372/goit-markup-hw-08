@@ -5,21 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Студія</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!--Шапка-->
     <header>
       <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="">Студія</a></li>
-          <li><a href="">Портфоліо</a></li>
-          <li><a href="">Контакти</a></li>
+        <a href="./index.html" class="logo"
+          >Web<span class="logo-style">Studio</span></a
+        >
+        <ul class="nav-list list">
+          <li class="nav-item"><a href="/" class="nav-link link">Студія</a></li>
+          <li class="nav-item">
+            <a href="./portfolio.html" class="nav-link link">Портфоліо</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link link">Контакти</a>
+          </li>
         </ul>
       </nav>
       <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li>
+          <a href="mailto:info@devstudio.com" class="header-mail"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+380961111111" class="header-tel link"
+            >+38 096 111 11 11</a
+          >
+        </li>
       </ul>
     </header>
 
@@ -37,31 +58,31 @@
       <!--Риси-->
 
       <section>
-        <!--<h2>Переваги</h2>-->
+        <!--<h2>benefits</h2>-->
         <ul>
-          <li>
-            <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p>
+          <li class="benefits-list">
+            <h3 class="benefits-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="benefits-paragraph">
               Ідейні міркування, і навіть початок поякденної роботи з формування
               позиції.
             </p>
           </li>
-          <li>
+          <li class="benefits-li">
             <h3>ПУНКТУАЛЬНІСТЬ</h3>
-            <p>
+            <p class="benefits-paragraph">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
-          <li>
+          <li class="benefits-li">
             <h3>ПЛАНУВАННЯ</h3>
-            <p>
+            <p class="benefits-paragraph">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
-          <li>
+          <li class="benefits-li">
             <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p>
+            <p class="benefits-paragraph">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
             </p>
@@ -126,12 +147,20 @@
 
     <!--футер-->
     <footer>
-      <a href="">WebStudio</a>
+      <a href="" class="footer-logo"
+        >Web<span class="footer-logo-style">Studio</span></a
+      >
       <address>
-        <p>м. Київ, пр-т Лесі Українки, 26</p>
         <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li>
+            <a
+              href="https://www.google.com.ua/maps/place/бульвар+Лесі+Українки,+26,+Київ,+Україна,+02000/@50.426594,30.5296525,2484m/data=!3m2!1e3!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858?hl=uk"
+              class="footer-link-address link">
+              <p>м. Київ, пр-т Лесі Українки, 26</p></a
+            >
+          </li>
+          <li><a href="mailto:info@devstudio.com" class="footer-link link">info@devstudio.com</a></li>
+          <li><a href="tel:+380961111111" class="footer-link link">+38 096 111 11 11</a></li>
         </ul>
       </address>
     </footer>
