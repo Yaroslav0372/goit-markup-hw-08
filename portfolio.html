@@ -17,16 +17,28 @@
     <!--Шапка-->
     <header>
       <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="/">Студія</a></li>
-          <li><a href="./portfolio.html">Портфоліо</a></li>
-          <li><a href="">Контакти</a></li>
+        <a href="./index.html" class="logo"
+          >Web<span class="logo-style">Studio</span></a
+        >
+        <ul class="site-nav">
+          <li class=""><a href="/" class="link">Студія</a></li>
+          <li class="">
+            <a href="./portfolio.html" class="link current">Портфоліо</a>
+          </li>
+          <li class="">
+            <a href="" class="link">Контакти</a>
+          </li>
         </ul>
       </nav>
       <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li>
+          <a href="mailto:info@devstudio.com" class="header-mail"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+380961111111" class="header-tel">+38 096 111 11 11</a>
+        </li>
       </ul>
     </header>
 
@@ -34,81 +46,121 @@
       <section>
         <!-- <h1>portfolio</h1> -->
 
-        <div>
-          <button type="button">Усі</button>
-          <button type="button">Веб-сайти</button>
-          <button type="button">Додатки</button>
-          <button type="button">Дизайн</button>
-          <button type="button">Маркетинг</button>
-        </div>
+        <ul class="filter">
+          <li><button type="button" class="filter-list">Веб-сайти</button></li>
+          <li><button type="button" class="filter-list">Додатки</button></li>
+          <li><button type="button" class="filter-list">Усі</button></li>
+          <li><button type="button" class="filter-list">Дизайн</button></li>
+          <li><button type="button" class="filter-list">Маркетинг</button></li>
+        </ul>
 
         <ul>
           <li>
-            <a href="">
+            <a href="" class="filter-link">
               <img
                 src="./images/photo_1.jpg"
                 alt="Ноутбук"
                 width="370"
                 height="294"
               />
-              <h2>Технокряк</h2>
-              <p>Веб-сайт</p>
+              <h2 class="filter-title">Технокряк</h2>
+              <p class="filter-text">Веб-сайт</p>
             </a>
           </li>
           <li>
-            <a href="">
-              <img src="" alt="" width="370" height="294" />
-              <h2></h2>
-              <p></p>
+            <a href="" class="filter-link">
+              <img
+                src="./images/basket.jpg"
+                alt="Баскетболіст"
+                width="370"
+                height="294"
+              />
+              <h2 class="filter-title">Постер New Orlean vs Golden Star</h2>
+              <p class="filter-text">Дизайн</p>
             </a>
           </li>
           <li>
-            <a href="">
-              <img src="" alt="" width="370" height="294" />
-              <h2></h2>
-              <p></p>
+            <a href="" class="filter-link">
+              <img
+                src="./images/fish.jpg"
+                alt="Риба"
+                width="370"
+                height="294"
+              />
+              <h2 class="filter-title">Ресторан Seafood</h2>
+              <p class="filter-text">Додаток</p>
             </a>
           </li>
           <li>
-            <a href="">
-              <img src="" alt="" width="370" height="294" />
-              <h2></h2>
-              <p></p>
+            <a href="" class="filter-link">
+              <img
+                src="./images/headphones.jpg"
+                alt="Навушники"
+                width="370"
+                height="294"
+              />
+              <h2 class="filter-title">Проєкт Prime</h2>
+              <p class="filter-text">Маркетинг</p>
             </a>
           </li>
           <li>
-            <a href="">
-              <img src="" alt="" width="370" height="294" />
-              <h2></h2>
-              <p></p>
+            <a href="" class="filter-link">
+              <img
+                src="./images/box.jpg"
+                alt="Коробка"
+                width="370"
+                height="294"
+              />
+              <h2 class="filter-title">Проєкт Boxes</h2>
+              <p class="filter-text">Додаток</p>
             </a>
           </li>
           <li>
-            <a href="">
-              <img src="" alt="" width="370" height="294" />
-              <h2></h2>
-              <p></p>
+            <a href="" class="filter-link">
+              <img
+                src="./images/monitor.jpg"
+                alt="Монітор"
+                width="370"
+                height="294"
+              />
+              <h2 class="filter-title">Inspiration has no Borders</h2>
+              <p class="filter-text">Веб-сайт</p>
             </a>
           </li>
           <li>
-            <a href="">
-              <img src="" alt="" width="370" height="294" />
-              <h2></h2>
-              <p></p>
+            <a href="" class="filter-link">
+              <img
+                src="./images/boocks.jpg"
+                alt="Книга"
+                width="370"
+                height="294"
+              />
+              <h2 class="filter-title">Видання Limited Edition</h2>
+              <p class="filter-text">Дизайн</p>
             </a>
           </li>
           <li>
-            <a href="">
-              <img src="" alt="" width="370" height="294" />
-              <h2></h2>
-              <p></p>
+            <a href="" class="filter-link">
+              <img
+                src="./images/leyba.jpg"
+                alt="Бірка"
+                width="370"
+                height="294"
+              />
+              <h2 class="filter-title">Проєкт LAB</h2>
+              <p class="filter-text">Маркетинг</p>
             </a>
           </li>
           <li>
-            <a href="">
-              <img src="" alt="" width="370" height="294" />
-              <h2></h2>
-              <p></p>
+            <a href="" class="filter-link">
+              <img
+                src="./images/notehands.jpg"
+                alt="Ноутбук"
+                width="370"
+                height="294"
+              />
+              <h2 class="filter-title">Growing Business</h2>
+              <p class="filter-text">Додаток</p>
             </a>
           </li>
         </ul>
@@ -116,13 +168,27 @@
     </main>
 
     <!--футер-->
-    <footer>
-      <a href="">WebStudio</a>
+    <footer class="footer">
+      <a href="" class="footer-logo"
+        >Web<span class="footer-logo-style">Studio</span></a
+      >
       <address>
-        <p>м. Київ, пр-т Лесі Українки, 26</p>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="footer-list">
+          <li>
+            <a
+              href="https://www.google.com.ua/maps/place/бульвар+Лесі+Українки,+26,+Київ,+Україна,+02000/@50.426594,30.5296525,2484m/data=!3m2!1e3!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858?hl=uk"
+              class="footer-address"
+              >Київ, пр-т Лесі Українки, 26</a
+            >
+          </li>
+          <li>
+            <a href="mailto:info@devstudio.com" class="footer-mail"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="footer-tel">+38 096 111 11 11</a>
+          </li>
         </ul>
       </address>
     </footer>
