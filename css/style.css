@@ -7,6 +7,8 @@
   --primary-color: #F5F5F5;
   --team-color: #F5F4FA; 
   --footer-link-color: rgba(255, 255, 255, 0.6);
+  --logo-color: #000000;
+  --btn-color: #188CE8;
 }
 
 body {
@@ -20,6 +22,11 @@ ul {
   list-style: none;
 }
 
+.link:hover, 
+.link:focus {
+  color: var(--accent-color);
+}
+
 
 /* header */
 
@@ -28,29 +35,31 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
   color: var(--accent-color);
 
   text-decoration: none;
 }
 .logo-style {
-  color: var(--title-text-color);
+  color: var(--logo-color);
 }
 
-.site-nav .link {
+.site-link {
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
   color: var(--title-text-color);
 
   text-decoration: none;
 }
 
-.site-nav .link:hover,
+/* .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
-}
+} */
 
-.site-nav .link.current {
+.site-link.current {
   color: var(--accent-color);
 }
 
@@ -58,28 +67,24 @@ ul {
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
   color: var(--primary-text-color);
 
   text-decoration: none;
 }
 
-.header-mail:hover,
-:focus {
-  color: var(--accent-color);
-}
+
 
 .header-tel {
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
   color: var(--primary-text-color);
 
   text-decoration: none;
 }
 
-.header-tel:hover, :focus {
-    color: var(--accent-color);
-}
 
 /* hero */
 
@@ -91,19 +96,26 @@ ul {
   font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
+  letter-spacing: 0.06em;
   text-align: center;
 color: var(--primary-white-color);
 }
 
 .hero-button {
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
+  letter-spacing: 0.06em;
   cursor: pointer;
+  border-style: none;
   color: var(--primary-white-color);
   background: var(--accent-color);
 }  
 
+.hero-button:hover, :focus {
+  background: var(--btn-color);
+}
 /* section */
 
 
@@ -114,12 +126,14 @@ color: var(--primary-white-color);
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 
 .futures-text {
   font-size: 14px;
   line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
 }
 
 /* work */
@@ -129,6 +143,7 @@ color: var(--primary-white-color);
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
+  letter-spacing: 0.03em;
   color: var(--title-text-color);
 
 }
@@ -136,6 +151,7 @@ color: var(--primary-white-color);
 /* team */
 .section-team {
   background: var(--team-color);  
+  letter-spacing: 0.03em;
 }
 
 .team {
@@ -166,20 +182,25 @@ color: var(--primary-white-color);
 
 /* portfolio */
 
-.filter {
+.filter-list {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
+  letter-spacing: 0.03em;
   color: var(--title-text-color);
-}
-
-.filter-list {
+  border-style: none;
   cursor: pointer;
   background: var(--team-color);
 }
 
-.filter .filter-list:hover, 
-.filter .filter-list:focus {
+/* .filter-list {
+  border-style: none;
+  cursor: pointer;
+  background: var(--team-color);
+} */
+
+.filter-list:hover, 
+.filter-list:focus {
   background-color: var(--accent-color);
   color: var(--primary-color);
 }
@@ -192,6 +213,7 @@ color: var(--primary-white-color);
   font-weight: 700;
   font-size: 18px;
   line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
   color: var(--title-text-color);
 }
 
@@ -199,6 +221,7 @@ color: var(--primary-white-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
+  letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 
@@ -214,6 +237,7 @@ color: var(--primary-white-color);
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
   color: var(--accent-color);
 
   text-decoration: none;
@@ -225,11 +249,12 @@ color: var(--primary-white-color);
 
 address {
   font-style: normal;
-}
+}  
 
 .footer-list {
 font-size: 14px;
 line-height: calc(24 / 14);
+letter-spacing: 0.03em;
 }
 
 .footer-address  {
