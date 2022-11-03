@@ -51,7 +51,7 @@ img {
 section {
   padding-top: 94px;
   padding-bottom: 94px;
-}  
+}
 
 .conteiner {
   width: 1200px;
@@ -60,10 +60,10 @@ section {
   margin: auto;
 }
 
-.link:hover, :focus {
+.link:hover,
+:focus {
   color: var(--accent-color);
 }
-  
 
 /* header */
 
@@ -220,7 +220,6 @@ section {
   gap: 30px;
 }
 
-
 .title {
   margin-bottom: 10px;
 
@@ -333,7 +332,6 @@ section {
   align-items: center;
   justify-content: center;
 }
-
 
 .filter-btn {
   padding: 6px 22px;
