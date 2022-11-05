@@ -11,6 +11,7 @@
   --btn-color: #188ce8;
   --border-color: #ececec;
   --border-features-color: #eeeeee;
+  --cart-sat-gap: 30px;
 }
 
 body {
@@ -217,16 +218,8 @@ section {
 
 .features-list {
   display: flex;
-  gap: 30px;
-}
+  margin-right: calc(-1 * var(--cart-sat-gap));
 
-.title {
-  margin-bottom: 10px;
-
-  color: var(--title-text-color);
-}
-
-.features-list {
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -235,7 +228,14 @@ section {
 }
 
 .feature-items {
-  gap: 30px;
+  margin-right: var(--cart-sat-gap);
+  flex-basis: calc(100% / 4 - var(--cart-sat-gap));
+}
+
+.title {
+  margin-bottom: 10px;
+
+  color: var(--title-text-color);
 }
 
 .futures-text {
@@ -263,8 +263,12 @@ section {
 
 .work-list {
   display: flex;
-  gap: 30px;
-  box-sizing: border-box;
+  margin-right: calc(-1 * var(--cart-sat-gap));
+}
+
+.work-item {
+  margin-right: var(--cart-sat-gap);
+  flex-basis: calc(100% / 3 - var(--cart-sat-gap));
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -290,10 +294,12 @@ section {
 
 .team-list {
   display: flex;
-  gap: 30px;
+  margin-right: calc(-1 * var(--cart-sat-gap));
 }
 
 .team-item {
+  margin-right: var(--cart-sat-gap);
+  flex-basis: calc(100% / 4 - var(--cart-sat-gap));
   background: var(--primary-white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -357,7 +363,14 @@ section {
 .filter-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  margin-right: calc(-1 * var(--cart-sat-gap));
+  margin-bottom: calc(-1 * var(--cart-sat-gap));
+}
+
+.filter-item {
+  margin-right: var(--cart-sat-gap);
+  margin-bottom: var(--cart-sat-gap);
+  flex-basis: calc(100% / 3 - var(--cart-sat-gap));
 }
 
 .filter-desk {
