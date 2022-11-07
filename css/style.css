@@ -41,6 +41,11 @@ ul {
   text-decoration: none;
 }
 
+.link:hover,
+:focus {
+  color: var(--accent-color);
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -61,10 +66,7 @@ section {
   margin: auto;
 }
 
-.link:hover,
-:focus {
-  color: var(--accent-color);
-}
+
 
 /* header */
 
@@ -126,9 +128,11 @@ section {
 .site-link.current {
   color: var(--accent-color);
 }
+
 .site-link.current:focus {
-  color: var(--primary-white-color);
-}
+  color: var(--accent-color);
+} 
+
 
 .header-contact {
   display: flex;
@@ -206,7 +210,7 @@ section {
   border-radius: 4px;
 }
 
-.hero-button:focus {
+.hero-button:hover, :focus {
   background: var(--btn-color);
 }
 
