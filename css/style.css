@@ -410,26 +410,36 @@ section {
 }
 
 .customers-item {
-  fill: currentColor;
   margin-right: var(--cart-sat-gap);
-  width: 170px;
-  height: 92px;
-  box-sizing: border-box;
-  border: 1px solid;
+  border: 1px solid var(--icons-color);
   border-radius: 4px;
+}
+
+.customers-item:hover,
+.customers-item:focus {
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+  color: var(--accent-color);
 }
 
 .customers-link {
   display: flex;
-  fill: currentColor;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+
+  color: var(--icons-color);
+}
+
+.customers-link:hover,
+.customers-link:focus {
+  color: var(--accent-color);
 }
 
 .customers-icon {
   fill: currentColor;
-  margin-top: 16px;
-  margin-right: 32px;
-  margin-bottom: 16px;
-  margin-left: 32px;
+  margin: 16px 32px;
 }
 
 /* portfolio */
@@ -596,11 +606,11 @@ address {
   height: 44px;
   border-radius: 50%;
   color: var(--primary-white-color);
-  background-color: rgba(255, 255, 255, 0.1);;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .footsoc-link:hover,
 .footsoc-link:focus {
   background-color: var(--accent-color);
-  color: var(--primary-white-color)
+  color: var(--primary-white-color);
 }
