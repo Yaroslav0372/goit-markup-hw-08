@@ -43,7 +43,7 @@ ul {
 }
 
 .link:hover,
-:focus {
+.link:focus {
   color: var(--accent-color);
 }
 
@@ -143,13 +143,13 @@ section {
 }
 
 .header-icon {
-  align-items: center;
   margin-right: 10px;
   fill: currentColor;
 }
 
 .header-mail {
-  display: block;
+  display: flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -162,7 +162,8 @@ section {
 }
 
 .header-tel {
-  display: block;
+  display: flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -185,7 +186,6 @@ section {
   text-align: center;
   background: var(--primary-grey-color);
   max-width: 1600px;
-  height: 600px;
   margin-right: auto;
   margin-left: auto;
   background-image: linear-gradient(
@@ -227,7 +227,7 @@ section {
 }
 
 .hero-button:hover,
-:focus {
+.hero-button:focus {
   background: var(--btn-color);
 }
 
@@ -375,7 +375,7 @@ section {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  color: currentColor;
+  color: var(--icons-color);
 }
 
 .socials-link:hover,
