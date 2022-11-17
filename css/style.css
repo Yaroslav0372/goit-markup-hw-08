@@ -438,8 +438,7 @@ section {
 }
 
 .customers-icon {
-  fill: currentColor;
-  margin: 16px 32px;
+  fill: var(--icons-color);
 }
 
 /* portfolio */
