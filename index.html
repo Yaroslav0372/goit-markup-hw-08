@@ -71,7 +71,9 @@
             ЕФЕКТИВНІ РІШЕННЯ ДЛЯ <br />
             ВАШОГО БІЗНЕСУ
           </h1>
-          <button type="button" class="hero-button">Замовити послугу</button>
+          <button type="button" class="hero-button" data-modal-open>
+            Замовити послугу
+          </button>
         </div>
       </section>
 
@@ -140,6 +142,9 @@
           <ul class="work-list">
             <li class="work-item">
               <img src="./images/img-min.jpg" alt="Кодимо" width="370" />
+              <div class="overlay">
+                <p class="overlay-text">ДЕСКТОПНІ ДОДАТКИ</p>
+              </div>
             </li>
             <li class="work-item">
               <img
@@ -147,6 +152,9 @@
                 alt="Розробляємо мобільні додатки"
                 width="370"
               />
+              <div class="overlay">
+                <p class="overlay-text">МОБОЛЬНІ ДОДАТКИ</p>
+              </div>
             </li>
             <li class="work-item">
               <img
@@ -154,6 +162,9 @@
                 alt="Малюємо графічні зображення"
                 width="370"
               />
+              <div class="overlay">
+                <p class="overlay-text">ДИЗАЙНЕРСЬКІ РІШЕННЯ</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -522,7 +533,7 @@
           <ul class="footsoc-list">
             <li class="footsoc-item">
               <a
-                class="footsoc-link link"
+                class="footsoc-link"
                 href="https://www.instagram.com"
                 aria-label="Instagram"
                 target="_blank"
@@ -534,7 +545,7 @@
             </li>
             <li class="footsoc-item">
               <a
-                class="footsoc-link link"
+                class="footsoc-link"
                 href="https://www.twitter.com"
                 aria-label="Twitter"
                 target="_blank"
@@ -546,7 +557,7 @@
             </li>
             <li class="footsoc-item">
               <a
-                class="footsoc-link link"
+                class="footsoc-link"
                 href="https://www.facebook.com"
                 aria-label="Facebook"
                 target="_blank"
@@ -558,7 +569,7 @@
             </li>
             <li class="footsoc-item">
               <a
-                class="footsoc-link link"
+                class="footsoc-link"
                 href="https://www.linkedin.com"
                 aria-label="Linkedin"
                 target="_blank"
@@ -572,5 +583,19 @@
         </div>
       </div>
     </footer>
+
+    <!-- Модальне вікно -->
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-btn" data-modal-close>
+          <svg class="" width="18" height="18">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
