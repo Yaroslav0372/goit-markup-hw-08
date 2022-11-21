@@ -41,7 +41,6 @@ ul {
 
 .link {
   text-decoration: none;
-  transition: color var(--anim-fast);
 }
 
 .link:hover,
@@ -126,6 +125,7 @@ section {
   letter-spacing: 0.02em;
 
   color: var(--title-text-color);
+  transition: color var(--anim-fast);
 }
 
 .site-link.current::after {
@@ -180,6 +180,12 @@ section {
   letter-spacing: 0.02em;
 
   color: var(--primary-text-color);
+  transition: color var(--anim-fast);
+}
+
+.header-mail:focus,
+.header-mail:hover {
+  color: var(--accent-color);
 }
 
 .header-tel {
@@ -194,6 +200,12 @@ section {
   letter-spacing: 0.02em;
 
   color: var(--primary-text-color);
+  transition: color var(--anim-fast);
+}
+
+.header-tel:focus,
+.header-tel:hover {
+  color: var(--accent-color);
 }
 
 /* hero */
@@ -667,14 +679,17 @@ address {
 
 .footer-address {
   color: var(--primary-white-color);
+  transition: color var(--anim-fast);
 }
 
 .footer-mail {
   color: var(--footer-link-color);
+  transition: color var(--anim-fast);
 }
 
 .footer-tel {
   color: var(--footer-link-color);
+  transition: color var(--anim-fast);
 }
 
 .footsoc-title {
