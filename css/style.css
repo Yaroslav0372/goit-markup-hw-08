@@ -726,7 +726,7 @@ address {
 
   background: rgba(0, 0, 0, 0.2);
 
-  transition: opasity var(--anim-fast), visibility var(--anim-fast);
+  transition: opacity var(--anim-fast), visibility var(--anim-fast);
 }
 
 .backdrop.is-hidden {
@@ -749,7 +749,7 @@ address {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 
-  transition: transform var(--anim-fast);
+  transition: transform var(--anim-fast), opacity var(--anim-fast);
 }
 
 .backdrop.is-hidden .modal {
