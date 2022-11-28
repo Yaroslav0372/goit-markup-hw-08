@@ -633,6 +633,7 @@ section {
 /* footer */
 
 .footer {
+  padding: 60px 0;
   background: var(--primary-grey-color);
 }
 
@@ -640,10 +641,10 @@ section {
   display: flex;
   padding-top: 0;
   padding-bottom: 0;
+  align-items: baseline;
 }
 
 .footnav-conteiner {
-  padding-top: 60px;
   margin-right: 70px;
 }
 
@@ -669,7 +670,6 @@ section {
 }
 
 .footer-list {
-  padding-bottom: 60px;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -702,7 +702,6 @@ section {
 }
 
 .footsoc-title {
-  padding-top: 72px;
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
@@ -712,7 +711,6 @@ section {
 }
 
 .footsoc-list {
-  padding-bottom: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -740,11 +738,9 @@ section {
 
 .footsubscribe-conteiner {
   width: 570px;
-  padding-bottom: 94px;
 }
 
 .footsubscribe-title {
-  padding-top: 72px;
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
@@ -765,6 +761,7 @@ section {
   padding: 12px 16px;
 
   box-sizing: border-box;
+  color: var(--primary-white-color);
   background: var(--primary-grey-color);
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
