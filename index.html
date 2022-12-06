@@ -7,10 +7,12 @@
     <feature__title>Студія</feature__title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Сonnected fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <!-- Modern normalize -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -18,41 +20,42 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- Custom style -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
 
   <body>
     <!--Шапка-->
     <header class="header">
-      <div class="header-conteiner conteiner">
-        <nav class="header-nav">
+      <div class="header__conteiner conteiner">
+        <nav class="nav">
           <a href="./index.html" class="logo link"
-            >Web<span class="logo-style">Studio</span></a
+            >Web<span class="logo__style">Studio</span></a
           >
-          <ul class="header-list">
-            <li class="item">
-              <a href="./index.html" class="site-link link current">Студія</a>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="./index.html" class="nav__link link current">Студія</a>
             </li>
-            <li class="item">
-              <a href="./portfolio.html" class="site-link link">Портфоліо</a>
+            <li class="nav__item">
+              <a href="./portfolio.html" class="nav__link link">Портфоліо</a>
             </li>
-            <li class="item">
-              <a href="" class="site-link link">Контакти</a>
+            <li class="nav__item">
+              <a href="" class="nav__link link">Контакти</a>
             </li>
           </ul>
         </nav>
-        <ul class="header-contact">
-          <li class="item">
-            <a href="mailto:info@devstudio.com" class="header-mail link"
-              ><svg class="header-icon" width="16" height="12">
+        <ul class="header__contact">
+          <li class="contact__item">
+            <a href="mailto:info@devstudio.com" class="contact__mail"
+              ><svg class="contact__icon" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="item">
-            <a href="tel:+380961111111" class="header-tel link"
-              ><svg class="header-icon" width="10" height="16">
+          <li class="contact__item">
+            <a href="tel:+380961111111" class="contact__tel"
+              ><svg class="contact__icon" width="10" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -529,7 +532,7 @@
           </address>
         </div>
         <div class="footsoc-conteiner">
-          <h3 class="footsoc-feature__title">ПРИЄДНУЙТЕСЬ</h3>
+          <h3 class="footsoc-title">ПРИЄДНУЙТЕСЬ</h3>
           <ul class="footsoc-list">
             <li class="footsoc-item">
               <a
@@ -582,7 +585,7 @@
           </ul>
         </div>
         <div class="footsubscribe-conteiner">
-          <p class="footsubscribe-feature__title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</p>
+          <p class="footsubscribe-title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</p>
           <form class="foot-form" name="foot_form">
             <label class="foot-form-label" for="foot-form-mail"></label>
             <input
