@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <feature__title>Портфоліо</feature__title>
+    <title>Портфоліо</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <!-- Сonnected fonts -->
@@ -21,7 +21,7 @@
       referrerpolicy="no-referrer"
     />
     <!-- Custom style -->
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body>
@@ -29,35 +29,33 @@
     <header class="header">
       <div class="header__conteiner conteiner">
         <nav class="nav">
-          <a href="./index.html" class="logo link"
-            >Web<span class="logo__style">Studio</span></a
+          <a href="./index.html" class="nav__logo"
+            >Web<span class="nav__logo-style">Studio</span></a
           >
           <ul class="nav__list">
             <li class="nav__item">
-              <a href="./index.html" class="nav__link link">Студія</a>
+              <a href="./index.html" class="nav__link">Студія</a>
             </li>
             <li class="nav__item">
-              <a href="./portfolio.html" class="nav__link link current"
-                >Портфоліо</a
-              >
+              <a href="./portfolio.html" class="nav__link current">Портфоліо</a>
             </li>
             <li class="nav__item">
-              <a href="" class="nav__link link">Контакти</a>
+              <a href="" class="nav__link">Контакти</a>
             </li>
           </ul>
         </nav>
         <ul class="header__contact">
-          <li class="contact__item">
-            <a href="mailto:info@devstudio.com" class="contact__mail"
-              ><svg class="contact__icon" width="16" height="12">
+          <li class="header__contact-item">
+            <a href="mailto:info@devstudio.com" class="header__contact-mail"
+              ><svg class="header__contact-icon" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="contact__item">
-            <a href="tel:+380961111111" class="contact__tel"
-              ><svg class="contact__icon" width="10" height="16">
+          <li class="header__contact-item">
+            <a href="tel:+380961111111" class="header__contact-tel"
+              ><svg class="header__contact-icon" width="10" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -73,19 +71,19 @@
           <!-- <h1>portfolio</h1> -->
           <ul class="btn__list">
             <li class="btn__item">
-              <button type="button" class="filter__btn">Усі</button>
+              <button type="button" class="btn__filter">Усі</button>
             </li>
             <li class="btn__item">
-              <button type="button" class="filter__btn">Веб-сайти</button>
+              <button type="button" class="btn__filter">Веб-сайти</button>
             </li>
             <li class="btn__item">
-              <button type="button" class="filter__btn">Додатки</button>
+              <button type="button" class="btn__filter">Додатки</button>
             </li>
             <li class="btn__item">
-              <button type="button" class="filter__btn">Дизайн</button>
+              <button type="button" class="btn__filter">Дизайн</button>
             </li>
             <li class="btn__item">
-              <button type="button" class="filter__btn">Маркетинг</button>
+              <button type="button" class="btn__filter">Маркетинг</button>
             </li>
           </ul>
           <ul class="filter__list">
@@ -132,7 +130,9 @@
                   </div>
                 </div>
                 <div class="filter__desk">
-                  <h2 class="filter__title">Постер New Orlean vs Golden Star</h2>
+                  <h2 class="filter__title">
+                    Постер New Orlean vs Golden Star
+                  </h2>
                   <p class="filter__text">Дизайн</p>
                 </div>
               </a>
@@ -396,7 +396,10 @@
         <div class="subscribe__conteiner">
           <p class="subscribe__title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</p>
           <form class="subscribe__form" name="subscribe__form">
-            <label class="subscribe__form-label" for="subscribe__form-mail"></label>
+            <label
+              class="subscribe__form-label"
+              for="subscribe__form-mail"
+            ></label>
             <input
               class="subscribe__form-mail"
               type="email"
