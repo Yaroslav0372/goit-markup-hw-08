@@ -929,7 +929,6 @@ textarea::placeholder {
   -webkit-transition: background-size var(--anim-fast), background-color var(--anim-fast), border var(--anim-fast);
   transition: background-size var(--anim-fast), background-color var(--anim-fast), border var(--anim-fast);
 }
-
 .modal__form-checkbox:checked {
   border: var(--accent-color);
   background-color: var(--accent-color);
@@ -973,9 +972,7 @@ textarea::placeholder {
   -webkit-transition: background-color var(--anim-fast);
   transition: background-color var(--anim-fast);
 }
-
-.modal__form-btn:hover,
-.modal__form-btn:focus {
+.modal__form-btn:hover, .modal__form-btn:focus {
   background-color: var(--btn-color);
 }
 
