@@ -1,0 +1,24 @@
+// utils style
+@import './utils/variables';
+
+// base style
+@import './base/base';
+@import './base/reset';
+
+// components style
+@import './components/conteiner';
+@import './components/section';
+@import './components/header';
+@import './components/nav';
+@import './components/hero';
+@import './components/feature';
+@import './components/work';
+@import './components/team';
+@import './components/customers';
+@import './components/footer';
+@import './components/footer-social';
+@import './components/subscribe';
+@import './components/modal';
+// portfolio components style
+@import './components/portfolio-btn';
+@import './components/filter.scss';
