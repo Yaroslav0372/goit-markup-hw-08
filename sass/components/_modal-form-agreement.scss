@@ -1,0 +1,89 @@
+.modal-form__agreement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  margin-bottom: 30px;
+}
+
+.modal-form__checkbox {
+  appearance: none;
+
+  width: 16px;
+  height: 15px;
+
+  border: 2px solid var(--button--color);
+  border-radius: 2px;
+
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:checked {
+    background: var(--background--button--hero);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13' height='10' fill='none'%3E%3Cpath fill='%23fff' stroke='%23fff' stroke-width='.2' d='m1.957 4.752-.069-.066-.069.065-.888.842-.076.072.076.073 3.496 3.334.069.066.069-.066 7.504-7.158.076-.073-.076-.072-.882-.841-.069-.066-.069.066-6.553 6.246-2.539-2.422Z'/%3E%3C/svg%3E");
+    background-size: 11px 8px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: transparent;
+  }
+}
+
+.modal-agreement__label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--header--contacts);
+  user-select: none;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.71;
+  }
+}
+
+.modal-agreement__text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+  color: var(--background--button--hero);
+
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.71;
+  }
+}
+
+.modal-form__btn {
+  display: block;
+  margin: auto;
+  min-width: 216px;
+  min-height: 50px;
+  padding: 10px 32px;
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--hero--btn);
+  cursor: pointer;
+  background: var(--background--button--hero);
+  box-shadow: var(--shadow--hero--button);
+  border-radius: 4px;
+  border: none;
+
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--bgr--hover--hero);
+    color: var(--color--hover-hero);
+    box-shadow: var(--footer--btn);
+  }
+}
